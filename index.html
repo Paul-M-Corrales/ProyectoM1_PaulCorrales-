@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Paleta de colores</title>
   </head>
   <body>
@@ -17,24 +17,30 @@
         <!-- Botones selector de colores -->
         <section>
           <p>Cantidad de colores:</p>
-          <button>6 colores</button>
-          <button>8 colores</button>
-          <button>9 colores</button>
+          <button id="6colores">6 colores</button>
+          <button id="8colores">8 colores</button>
+          <button id="9colores">9 colores</button>
         </section>
       </aside>
-      <!-- Boton generar paleta -->
-      <section>
+      <!-- Seccion paletas de colores -->
+      <section id="paletas" class="paletasDinamicas">
         <h2 class="subtitulo">
           Creá combinaciones de colores para tus proyectos visuales
         </h2>
-        <button class="btnGenerarPaleta">Generar paleta</button>
+        <p id="mensaje"></p>
+
+        <button id="generarPaleta" class="btnGenerarPaleta">
+          Generar paleta
+        </button>
+
+        <p id="copiarCodigo"></p>
+
+        <div id="paleta" class="paleta"></div>
       </section>
-      <!-- Seccion paletas de colores -->
-      <section class="paletas"></section>
     </main>
-    <script src="./script.js"></script>
+    <footer>
+      <p>Generador de paletas interactivo &copy 2026 Colorfly Studio</p>
+    </footer>
+    <script src="./js/script.js"></script>
   </body>
-  <footer>
-    <p>Generador de paletas interactivo &copy 2026 Colorfly Studio</p>
-  </footer>
 </html>
