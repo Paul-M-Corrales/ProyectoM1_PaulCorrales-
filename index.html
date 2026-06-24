@@ -18,14 +18,19 @@
         <!-- Botones selector de colores -->
         <section>
           <p>Cantidad de colores:</p>
-          <button id="6colores">6 colores</button>
-          <button id="8colores">8 colores</button>
-          <button id="9colores">9 colores</button>
+          <button class="btnCantidad" id="6colores">6 colores</button>
+          <button class="btnCantidad" id="8colores">8 colores</button>
+          <button class="btnCantidad" id="9colores">9 colores</button>
         </section>
         <section class="formatoDeColor">
           <p>Formato de color:</p>
-          <input type="radio" /> HEX <input type="radio" />HSL
+          <input type="radio" name="formato" id="formatoHEX" checked /> HEX
+          <input type="radio" name="formato" id="formatoHSL" /> HSL
         </section>
+        <button id="guardarPaleta" class="btnGuardarPaleta">
+          Guardar paleta
+        </button>
+        <div id="paletasGuardadas"></div>
       </aside>
       <!-- Seccion paletas de colores -->
       <section id="paletas" class="paletasDinamicas">
