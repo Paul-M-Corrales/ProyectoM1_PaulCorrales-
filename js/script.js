@@ -58,6 +58,8 @@ boton9.addEventListener("click", function () {
 const paletas = document.getElementById("paletas");
 const paleta = document.getElementById("paleta");
 
+let paletaActual = [];
+
 function generarPaletasDeColores() {
   if (cantidadElegida === 0) {
     mensaje.textContent = "Primero seleccioná si quieres 6, 8 o 9 colores.";
@@ -73,6 +75,7 @@ function generarPaletasDeColores() {
     const muestraColor = document.createElement("div");
     const codigoColor = document.createElement("div");
     const colorHEX = generarColores();
+    paletaActual.push({ colorHEX, bloqueado: false });
 
     codigoColor.textContent = colorHEX;
 
@@ -100,5 +103,39 @@ function generarPaletasDeColores() {
     muestraColor.style.width = "150px";
     muestraColor.style.height = "150px";
   }
+}
+function convertirHexAHsl(hex) {
+  let rojo = parseInt(hex.slice(1, 3), 16) / 255;
+  let verde = parseInt(hex.slice(3, 5), 16) / 255;
+  let azul = parseInt(hex.slice(5, 7), 16) / 255;
+
+  const max = Math.max(rojo, verde, azul);
+  const min = Math.min(rojo, verde, azul);
+
+  let h = 0;
+  let s = 0;
+  let l = (max + min) / 2;
+
+  if (max !== min) {
+    const diferencia = max - min;
+
+    s = l > 0.5 ? diferencia / (2 - max - min) : diferencia / (max + min);
+
+    if (max === rojo) {
+      h = (verde - azul) / diferencia + (verde < azul ? 6 : 0);
+    } else if (max === verde) {
+      h = (azul - rojo) / diferencia + 2;
+    } else {
+      h = (rojo - verde) / diferencia + 4;
+    }
+
+    h = h * 60;
+  }
+
+  h = Math.round(h);
+  s = Math.round(s * 100);
+  l = Math.round(l * 100);
+
+  return `hsl(${h}, ${s}%, ${l}%)`;
 }
 paletaGenerada.addEventListener("click", generarPaletasDeColores);
