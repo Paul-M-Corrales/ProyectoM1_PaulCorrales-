@@ -19,6 +19,7 @@ CSS3
 JavaScript (ES6)
 LocalStorage API
 Clipboard API
+
 📂 Estructura del proyecto
 📦 ColorFly-Studio
 │
