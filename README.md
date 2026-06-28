@@ -67,7 +67,9 @@ También podés usar la extensión **Live Server** en VS Code.
 
 ## 🧭 Cómo usar la aplicación
 
-![Gif](./assets/video.gif)
+### 🎬 Video demostrativo
+
+![Video demostrativo](./assets/video.gif)
 
 1. Seleccionar la cantidad de colores: **6, 8 o 9**.
 2. Presionar **Generar paleta**.
