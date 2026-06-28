@@ -77,30 +77,37 @@ También podés usar la extensión **Live Server** en VS Code.
 
 ## 📸 Uso de la aplicación
 
+### Pantalla de inicio
+
+![Generación de paleta](./assets/pantallaDeInicio.png)
+
 ### Generación de paleta
 
-![Generación de paleta](./assets/images/preview1.png)
+![Generación de paleta](./assets/paletaGenerada.png)
+
+### Cambio a HSL
+
+![Generación de paleta](./assets/codigoHsl.png)
 
 ### Bloqueo de colores
 
-![Bloqueo de colores](./assets/images/preview2.png)
+![Bloqueo de colores](./assets/colorBloqueado.png)
 
 ### Guardado de paletas
 
-![Guardado de paletas](./assets/images/preview3.png)
+![Guardado de paletas](./assets/paletaGuardada.png)
 
 ## 🤖 Prompts utilizados con IA
 
 Durante el desarrollo se utilizaron prompts para mejorar funcionalidades y resolver problemas:
 
-- "Cómo generar colores aleatorios en JavaScript en formato HEX"
 - "Convertir colores HEX a HSL en JavaScript"
-- "Cómo copiar texto al portapapeles con JavaScript"
 - "Cómo guardar datos en LocalStorage y recuperarlos"
-- "Cómo crear botones dinámicos en JavaScript"
-- "Cómo bloquear elementos en una lista y mantener su estado"
 - "Cómo limpiar LocalStorage al recargar la página"
-- "Cómo mejorar la UX en una aplicación de paletas de colores"
+
+### Si quieres seguir leyendo sobre esto, ve al siguiente link
+
+![Promptings](./assets/docs/promptings)
 
 ## 💡 Objetivo del proyecto
 
@@ -129,7 +136,7 @@ Este proyecto fue realizado como práctica de JavaScript enfocada en el desarrol
 
 ## 👨‍💻 Autor
 
-**Paúl Corrales**
+**Paúl Matás Corrales**
 
 Desarrollador Full Stack en formación, apasionado por crear aplicaciones útiles, intuitivas y con un diseño moderno.
 
