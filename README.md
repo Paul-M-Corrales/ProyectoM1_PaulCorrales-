@@ -107,7 +107,7 @@ Durante el desarrollo se utilizaron prompts para mejorar funcionalidades y resol
 
 ### Si quieres seguir leyendo sobre esto, ve al siguiente link
 
-![Promptings](./assets/docs/promptings)
+![Promptings](./assets/docs/promptings.md)
 
 ## 💡 Objetivo del proyecto
 
