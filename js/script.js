@@ -78,7 +78,7 @@ function generarPaletasDeColores() {
   }
 
   copiarCodigo.textContent =
-    "Para copiar el codigo del color haz clic sobre el";
+    "Haz clic sobre el código del color para copiarlo al portapapeles";
 
   paleta.innerHTML = "";
 
