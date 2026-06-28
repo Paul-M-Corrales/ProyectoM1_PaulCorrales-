@@ -100,8 +100,7 @@ header {
 .codigo {
   height: 40px;
   width: 150px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,6 +125,8 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .candado {
@@ -223,6 +224,10 @@ footer {
   .color {
     width: 100% !important;
   }
+  footer {
+    text-align: center;
+    font-size: 13px;
+  }
 }
 @media (max-width: 300px) {
   .paleta {
@@ -230,5 +235,9 @@ footer {
   }
   .btnGenerarPaleta {
     width: 25%;
+  }
+  footer {
+    text-align: center;
+    font-size: 10px;
   }
 }
