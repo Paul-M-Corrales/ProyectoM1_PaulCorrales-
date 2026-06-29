@@ -67,7 +67,7 @@ También podés usar la extensión **Live Server** en VS Code.
 
 ## 🧭 Cómo usar la aplicación
 
-### 🎬 Video demostrativo
+### 🎬 Video GIF demostrativo
 
 ![Video demostrativo](./assets/video.gif)
 
