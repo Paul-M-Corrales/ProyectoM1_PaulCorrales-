@@ -59,3 +59,7 @@ Conversión de espacios de color.
 Generación dinámica de elementos HTML.
 Persistencia de datos en aplicaciones Front-End.
 Resolución de problemas utilizando IA como herramienta de aprendizaje.
+
+## 🔙 Regresar
+
+[⬅️ Volver al README principal](../../README.md)
