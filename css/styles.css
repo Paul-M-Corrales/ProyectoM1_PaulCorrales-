@@ -54,6 +54,7 @@ header {
 ====================================
 */
 .sidebar {
+  display: flex;
   width: 180px;
   background-color: #9fceca;
   flex-direction: column;
